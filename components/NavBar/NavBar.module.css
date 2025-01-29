@@ -1,0 +1,30 @@
+/* Navbar.module.css */
+
+.logoImage {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .logoImageLight {
+    opacity: 1;
+  }
+  
+  .logoImageDark {
+    opacity: 0.7;
+    filter: grayscale(30%);
+  }
+  
+  /* Responsive Image */
+  @media screen and (max-width: 768px) {
+    .logoImage {
+      width: 120px !important;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logoImage {
+      width: 90px !important;
+      height: auto;
+    }
+  }
+  

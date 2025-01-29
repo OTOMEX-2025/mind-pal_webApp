@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1738152221802,
+    "name": "vincent",
+    "email": "mphomakgwe4@gmail.com",
+    "password": "$2a$10$U4y6ZtWfEFFkaWSL09skR.aKZxv0Y.yuANtEH.4csiaJTgfSs4OAG",
+    "isProfessional": false
+  },
+  {
+    "id": 1738153152965,
+    "name": "mpho",
+    "email": "example@gmail.com",
+    "password": "$2a$10$EX0dAuH9DFzRrSc1fhRLo./qrSGKohmtDPy0BYV1FsM/CBhJ74oOC",
+    "isProfessional": false
+  }
+]

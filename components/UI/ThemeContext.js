@@ -6,11 +6,19 @@ export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark");
-  }, [theme]);
+    const savedTheme = localStorage.getItem("theme")||"light"
+    setTheme(savedTheme);
+    document.documentElement.classList.add(savedTheme);
+  }, []);
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
+    document.documentElement.classList.remove(theme);    
+    document.documentElement.classList.add(newTheme);    
+    
+
   };
 
   return (

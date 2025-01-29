@@ -2,3 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define stress-relieving color variables */
+:root {
+    --soft-blue: #AEC6CF;
+    --sky-blue: #87CEEB;
+    --pale-turquoise: #AFEEEE;
+    --powder-blue: #B0E0E6;
+    --lavender-blue: #CCCCFF;
+    --mint-green: #98FF98;
+    --tea-green: #D0F0C0;
+    --sage-green: #9CBA7F;
+    --pale-green: #98FB98;
+    --peach: #FFDAB9;
+    --champagne: #F7E7CE;
+    --warm-beige: #F5F5DC;
+    --blush-pink: #FFB6C1;
+    --lavender: #E6E6FA;
+    --light-gray: #D3D3D3;
+    --pastel-purple: #D8BFD8;
+    --misty-rose: #FFE4E1;
+
+    /* Dark Mode Colors */
+    --deep-teal: #005F6B;
+    --muted-olive: #556B2F;
+    --slate-blue: #6A5ACD;
+    --dusky-lavender: #776D8A;
+    --warm-gray: #3E3E3E;
+}
+
+/* Light mode styles */
+html.light {
+    --bg-color: var(--powder-blue);
+    --text-color: black;
+    --primary: var(--soft-blue);
+    --secondary: var(--mint-green);
+    --accent: var(--peach);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Dark mode styles */
+html.dark {
+    --bg-color: var(--deep-teal);
+    --text-color: white;
+    --primary: var(--slate-blue);
+    --secondary: var(--muted-olive);
+    --accent: var(--dusky-lavender);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

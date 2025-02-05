@@ -1,5 +1,5 @@
 import Navbar from "../Navbar"; // Ensure proper casing
-import Sidebar from "../../pages"; // Sidebar for navigation
+import Sidebar from "components/sidebar"; // Sidebar for navigation
 import { ThemeProvider } from "../UI/ThemeContext";
 import { useRouter } from "next/router";
 import styles from "../../styles/Layout.module.css"; // Import CSS Module for styling

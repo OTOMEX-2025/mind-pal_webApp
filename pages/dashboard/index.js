@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import Sidebar from 'components/sidebar';
 export default function Dashboard() {
     const [user, setUser] = useState(null);
     const router = useRouter();

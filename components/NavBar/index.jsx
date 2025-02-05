@@ -29,7 +29,7 @@ export default function Navbar() {
           : "bg-darkTeal text-mutedOlive"
       )}
     >
-      <Link href="/" className="text-lg font-bold">
+      <Link href="/dashboard" className="text-lg font-bold">
         <Image
           src={logo}
           width={120} 

@@ -12,5 +12,12 @@
     "email": "example@gmail.com",
     "password": "$2a$10$EX0dAuH9DFzRrSc1fhRLo./qrSGKohmtDPy0BYV1FsM/CBhJ74oOC",
     "isProfessional": false
+  },
+  {
+    "id": 1738234436262,
+    "name": "mpho",
+    "email": "example@example.com",
+    "password": "$2a$10$FyFWbH4X3EdEt9t8pmd4Ge1QcB5CKXddI.olZCsrLNADNoflylK26",
+    "isProfessional": false
   }
 ]

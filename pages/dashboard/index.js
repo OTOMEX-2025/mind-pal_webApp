@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-
+import Sidebar from 'components/sidebar';
 export default function Dashboard() {
     const [user, setUser] = useState(null);
     const router = useRouter();
@@ -22,6 +22,7 @@ export default function Dashboard() {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen">
+            {/* <Sidebar/> */}
             <h2 className="text-2xl font-bold mb-4">Welcome, {user?.name}!</h2>
             <button
                 onClick={handleLogout}

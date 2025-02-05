@@ -2,7 +2,7 @@ import Navbar from "../Navbar"; // Ensure proper casing
 import Sidebar from "components/sidebar"; // Sidebar for navigation
 import { ThemeProvider } from "../UI/ThemeContext";
 import { useRouter } from "next/router";
-import styles from "../../styles/Layout.module.css"; // Import CSS Module for styling
+import styles from "./Layout.module.css"; // Import CSS Module for styling
 
 export default function Layout({ children }) {
   const router = useRouter();
